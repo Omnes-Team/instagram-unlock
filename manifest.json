@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Instagram Unlock",
+  "description": "A simple and lightweight extension to remove modal when scrolling without login on Instagram.",
+  "version": "0.0.1",
+  "icons": {
+    "64": "icons/icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.instagram.com/*"],
+      "js": ["content_script.js"]
+    }
+  ],
+  "browser_action": {
+    "browser_style": true
+  },
+  "page_action": {
+    "default_icon": {
+      "64": "icons/icon.png"
+    },
+    "default_title": "Instagram Unlock"
+  }
+}
