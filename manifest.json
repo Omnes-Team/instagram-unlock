@@ -12,9 +12,6 @@
       "js": ["content_script.js"]
     }
   ],
-  "browser_action": {
-    "browser_style": true
-  },
   "page_action": {
     "default_icon": {
       "64": "icons/icon.png"
